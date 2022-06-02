@@ -1,0 +1,77 @@
+.gallery{
+    width: 105%;
+    height: 1058px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./imagess/fud.jpg);
+    background-size: cover;
+}  
+.fud{
+    width: 200px;
+    height: 381px;
+    border: solid 2px white;
+   text-align: center;
+}
+h3{
+    color: yellowgreen;
+}
+p{
+    text-align: left;
+    color: yellow;
+}
+img{
+    width: 170px;
+    height: 115px;
+}
+h2{
+    text-align: center;
+    color: rgb(216, 96, 186);
+    margin-top: 28px;
+}
+.fud1{
+    width: 622px;
+    height: 70px;
+    background-color: rgb(35, 207, 112);
+    margin-top: -935px;
+    margin-left: -144px;
+    
+}
+.fud2{
+    background-color: black;
+    margin-left: -457px;
+    margin-top: -458px;
+    margin-right: -76px;
+    border-radius: 40px;
+    box-shadow: 10px 10px blueviolet;
+}
+.fud2:hover{
+    background-color: plum;
+    
+}
+.fud3{
+    margin-left: -176px;
+    background-color: black;
+    margin-bottom: 87px;
+    border-radius: 40px;
+    box-shadow: 10px 10px blueviolet;
+}
+button{
+    background-color: orangered;
+    margin-top: 31px;
+}
+button:hover{
+    background-color: yellowgreen;
+    color: aqua;
+}
+.icon{
+    background-image: url(./imagess/fudicon.webp);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    margin-top: -934px;
+    margin-right: -129px;
+}
